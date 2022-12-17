@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+  <title>ZTravel</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="icon.ico" rel="icon" type="image/x-icon" >
+  <link href="opp.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<!-- Section 1 -->
+<section class="relative w-full px-8 text-slate-700 body-font " data-tails-scripts="//unpkg.com/alpinejs">
+    <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
+        <a href="/" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-white select-none">ZTravel</a>
+
+        <nav class="top-0 left-0 z-0 flex items-center justify-center w-full h-full py-5 -ml-0 space-x-5 text-base md:-ml-5 md:py-0 md:absolute underline">
+            <a href="/" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-100" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="block">Home</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0"></span>
+                </span>
+            </a>
+            <a href="/tours" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-100" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="block">Tours</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0"></span>
+                </span>
+            </a>
+            <a href="/flights" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-100" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="block">Flights</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0"></span>
+                </span>
+            </a>
+            <a href="/commercial" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-100" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="block">Commercial</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0"></span>
+                </span>
+            </a>
+        </nav>
+
+        <div class="relative z-10 inline-flex items-center space-x-3 md:ml-5 lg:justify-end">
+            </span>
+        </div>
+    </div>
+</section>
+
+<!-- Section 2 -->
+<section class="h-auto">
+    <div class="px-10 py-24 mx-auto max-w-7xl">
+        <div class="w-full mx-auto text-left md:text-center">
+            <h1 class="mb-6 text-5xl font-extrabold leading-none max-w-5xl mx-auto tracking-normal text-white sm:text-6xl md:text-6xl lg:text-7xl md:tracking-tight"> The <span class="w-full text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 lg:inline">Best Tour Planner</span> in<br class="lg:block hidden"> today's earth. </h1>
+            <p class="px-0 mb-6 text-lg text-gray-300 md:text-xl lg:px-24"> ZTravel is a tours and travels company that offers a wide range of travel services to customers all over the world. Whether you are looking to go on a relaxing beach vacation, an exciting adventure trip, or a cultural exchange tour, ZTravel has something for everyone.  </p>
+        </div>
+    </div>
+</section>
+<center> 
+<a href="/portal" class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
+<span class="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 group-hover:opacity-100"></span>
+<!-- Top glass gradient -->
+<span class="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
+<!-- Bottom gradient -->
+<span class="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
+<!-- Left gradient -->
+<span class="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
+<!-- Right gradient -->
+<span class="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
+<span class="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
+<span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
+<span class="relative">Let's Go!</span>
+</a>
+  </center> 
+
+
+
+
+
+  
+<!-- Section 3 -->
+<section class="w-full pt-7 pb-7 md:pt-20 md:pb-24">
+    <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
+
+        <!-- Image -->
+        <div class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
+            <img src="https://cdn-icons-png.flaticon.com/512/1974/1974031.png" class="invert p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 ">
+        </div>
+
+        <!-- Content -->
+        <div class="box-border order-first w-full text-white border-solid md:w-1/2 md:pl-10 md:order-none">
+            <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+                Why we are better
+            </h2>
+            <p class="pt-4 pb-8 m-0 leading-7 text-gray-200 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+                We have experienced travel agents who can help you plan the perfect trip and make all the necessary arrangements, from booking flights and hotels to arranging activities and transportation. ZTravel prides itself on providing top-notch customer service and ensuring that every trip is an unforgettable experience. Whether you are a seasoned traveler or a first-time visitor, ZTravel is the perfect partner for all your travel needs. 
+            </p>
+            <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
+                <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-500 rounded-full"><span class="text-sm font-bold">$</span></span> Wide range of travel services
+                </li>
+                <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-600 rounded-full"><span class="text-sm font-bold">$</span></span> Experienced travel agents. 
+                </li>
+                <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-700 rounded-full"><span class="text-sm font-bold">$</span></span> Top-notch customer service.
+                </li>
+            </ul>
+        </div>
+      
+        <!-- End  Content -->
+    </div>
+
+    <div class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
+
+        <!-- Content 
+        <div class="box-border w-full text-white border-solid md:w-1/2 md:pl-6 xl:pl-32">
+            <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+                Patented HappyTech&#8482;
+            </h2>
+            <p class="pt-4 pb-8 m-0 leading-7 text-gray-200 border-0 border-gray-300 sm:pr-10 lg:text-lg">
+                Revolutionary technology makes your brain release serotonin everytime you look at HappyNFT. Trust us.
+            </p>
+            <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
+                <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-500 rounded-full"><span class="text-sm font-bold">$</span></span> No need for friends or family. Only HappyNFT.
+                </li>
+                <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-600 rounded-full"><span class="text-sm font-bold">$</span></span> Only 10% of all NFTs have been put back on the market since minting.
+                </li>
+                <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                    <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-700 rounded-full"><span class="text-sm font-bold">$</span></span> Voted #1 Best NFT by our company dog, Max.
+                </li>
+            </ul>
+        </div> -->
+        <!-- End  Content -->
+
+        <!-- Image 
+        <div class="rounded-lg box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 ">
+            <img src="https://img.seadn.io/files/4ddd04f567ed24aef29f538a5f59cba2.png?fit=max&w=600" class="pl-4 sm:pr-10 xl:pl-10 lg:pr-32 ">
+        </div>-->
+    </div>
+</section>
+
+  
+</body>
+</html>
