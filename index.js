@@ -17,6 +17,14 @@
      //show this file when the "/" is requested
      response.sendFile(__dirname+"/src/flights.html");
  });
+ app.get("/profile", function (request, response){
+     //show this file when the "/" is requested
+     response.sendFile(__dirname+"/src/profile.html");
+ });
+ app.get("/warn", function (request, response){
+     //show this file when the "/" is requested
+     response.sendFile(__dirname+"/src/warn.html");
+ });
  app.get("/tours", function (request, response){
      //show this file when the "/" is requested
      response.sendFile(__dirname+"/src/tours.html");
